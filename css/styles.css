@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    margin: 20px 20px 0 20px;
+}
+
+img {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
