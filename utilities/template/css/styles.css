@@ -1,0 +1,33 @@
+/* Globales */
+
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --oscuro: #212121;
+    --gris: #757575;
+    --gri-claro: #dfe9f3;
+
+    --primario: #9c27b0;
+    --secundario: #9c27b0;
+
+    --fuente-principal: Serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+/*html {*/
+/*    scroll-snap-align: start;*/
+/*    scroll-snap-stop: always;*/
+/*}*/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}

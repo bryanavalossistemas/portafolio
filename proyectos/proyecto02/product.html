@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FrontEnd Store</title>
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<header class="header">
+    <a href="./index.html">
+        <img src="./img/logo.png" alt="logo" class="header__logo">
+    </a>
+</header>
+<nav class="nav">
+    <a href="./index.html" class="nav__link nav__link--active">Tienda</a>
+    <a href="our.html" class="nav__link">Nosotros</a>
+</nav>
+<main class="container">
+    <h1>React JS</h1>
+    <div class="shirt">
+        <img class="shirt__image" src="./img/3.jpg" alt="Camisa de React">
+        <div class="shirt__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam aliquid at corporis cumque
+                debitis dicta enim eos explicabo magni modi, odit, qui suscipit tempora ut? Impedit mollitia natus
+                nemo!</p>
+            <form class="form">
+                <label>
+                    <select class="form__field">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                </label>
+                <label>
+                    <input class="form__field" type="number" placeholder="Cantidad" min="1">
+                </label>
+                <input class="form__submit" type="submit" value="Agregar al carrito">
+            </form>
+        </div>
+
+    </div>
+</main>
+<footer class="footer">
+    <p class="footer__texto">FrontEnd Store - Todos los derechos Reservados @Bryan Avalos</p>
+</footer>
+</body>
+</html>
